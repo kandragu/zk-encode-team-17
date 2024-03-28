@@ -1,0 +1,37 @@
+{
+  "inputs": [
+    {
+      "name": "paymentHistory",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "creditUtilization",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "lengthOfCreditHistory",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "typesOfCreditUsed",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "recentCreditInquiries",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "userId",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "output": {
+    "type": "field"
+  }
+}

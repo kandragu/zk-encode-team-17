@@ -1,0 +1,10 @@
+def main(private field paymentHistory, private field creditUtilization, private field lengthOfCreditHistory, private field typesOfCreditUsed, private field recentCreditInquiries, field userId) -> field {
+    // Simplified example: Calculate the credit score as a weighted sum of inputs
+    // Adjust weights according to your scoring model
+    field creditScore = (paymentHistory * 2 + (100 - creditUtilization) * 2 + lengthOfCreditHistory + typesOfCreditUsed + (100 - recentCreditInquiries)) / 8;
+
+    // Determine creditworthiness
+    field isCreditWorthy = creditScore > 60 ? 1 : 0; // Example threshold
+
+    return isCreditWorthy;
+}
